@@ -1,7 +1,9 @@
-first = "tarantula"
-second = ""
-for i in range(len(first)-1,-1,-1):
-  print(i)
-  second = first[i] + second
-  print(second)
-print(second)
+h = "aba"
+s = set(h)
+sf ="aabid"
+for i in s:
+    print(i)
+    print(h.count(i))
+    print(sf.count(i))
+    if h.count(i) > sf.count(i) or i not in sf:
+        print(False)
